@@ -2,6 +2,8 @@
 
 Angular & Angular Material application bootstrapper
 
+[![Dependency Status](https://gemnasium.com/ypk-lab/angular-bootstrapper.svg)](https://gemnasium.com/ypk-lab/angular-bootstrapper)
+
 ## Requirements
 
 - Node/NPM
