@@ -1,3 +1,13 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > * {
+        margin: 0 0.1em;
+    }
+}
+
 .avatar {
     width: 100px;
 }
