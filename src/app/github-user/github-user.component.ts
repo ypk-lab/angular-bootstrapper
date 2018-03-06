@@ -5,11 +5,11 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
     moduleId: module.id,
-    selector: 'app-hello-world',
-    templateUrl: 'hello-world.component.html',
-    styleUrls: ['hello-world.component.scss']
+    selector: 'app-github-user',
+    templateUrl: 'github-user.component.html',
+    styleUrls: ['github-user.component.scss']
 })
-export class HelloWorldComponent implements OnInit {
+export class GithubUserComponent implements OnInit {
     public title = 'Angular Bootstrapper';
     public user: any;
     public formGroup: FormGroup;

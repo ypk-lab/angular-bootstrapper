@@ -5,17 +5,17 @@ import { RouterModule, Routes } from '@angular/router';
 // Internal imports
 import { Error404Component } from './core/error-404.component';
 import { SharedModule } from './shared/shared.module';
-import { HelloWorldComponent } from './hello-world/hello-world.component';
+import { GithubUserComponent } from './github-user/github-user.component';
 
 const routes: Routes = [
     {
         path: '',
-        redirectTo: 'hello-world',
+        redirectTo: 'github-user',
         pathMatch: 'full'
     },
     {
-        path: 'hello-world',
-        component: HelloWorldComponent
+        path: 'github-user',
+        component: GithubUserComponent
     },
     {
         path: '**',
@@ -26,7 +26,7 @@ const routes: Routes = [
 @NgModule({
     declarations: [
         Error404Component,
-        HelloWorldComponent
+        GithubUserComponent
     ],
     imports: [
         SharedModule,
@@ -34,7 +34,7 @@ const routes: Routes = [
     ],
     exports: [
         Error404Component,
-        HelloWorldComponent,
+        GithubUserComponent,
         RouterModule
     ]
 })
