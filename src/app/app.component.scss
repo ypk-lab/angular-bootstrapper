@@ -1,1 +1,5 @@
 @import "./shared/angular-material.theming";
+
+a {
+    color: map-get($app-primary, 500);
+}
