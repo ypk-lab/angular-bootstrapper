@@ -1,25 +1,40 @@
 <h1>
-    <img src="./assets/img/logo.svg" width="48" />
-    <span>YPK Lab presents: {{ title }}</span>
+    <img src="./assets/img/logo.svg" />
+    <span>YPK Lab {{ title }}</span>
 </h1>
 
-<h2>GitHub user search:</h2>
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>
+            GitHub user search
+        </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <form [formGroup]="formGroup" class="search-form">
+            <mat-form-field>
+                <input matInput formControlName="search" placeholder="User ID" />
+            </mat-form-field>
+            <button mat-raised-button type="submit" color="primary" (click)="fetchUser()">
+                Go!
+            </button>
+        </form>
+    </mat-card-content>
+</mat-card>
 
-<form [formGroup]="formGroup">
-    <mat-form-field>
-        <input matInput formControlName="search" placeholder="User ID" />
-    </mat-form-field>
-    <button mat-raised-button type="submit" color="primary" (click)="fetchUser()">
-        Go!
-    </button>
-</form>
-
-<ng-container *ngIf="loading">
-    Loading...
-</ng-container>
-<ng-container *ngIf="!loading && user">
-    <img [src]="user.avatar_url" class="avatar" /><br />
-    <strong>Login:</strong> {{ user.login }}<br />
-    <strong>Name:</strong> {{ user.name }}<br />
-    <strong>URL:</strong> <a [href]="user.html_url" target="_blank">{{ user.html_url }}</a>
-</ng-container>
+<mat-card>
+        <mat-card-content class="user__card-content">
+        <div>
+            <mat-spinner *ngIf="loading; else avatarBlock" diameter="70"></mat-spinner>
+            <ng-template #avatarBlock>
+                <img *ngIf="user" [src]="user.avatar_url" class="user__avatar" />
+            </ng-template>
+        </div>
+        <div>
+            <ul class="user__infos">
+                <li>Login: <strong>{{ user?.login }}</strong></li>
+                <li>Name: <strong>{{ user?.name }}</strong></li>
+                <li>URL: <a [href]="user?.html_url" target="_blank">{{ user?.html_url }}</a></li>
+            </ul>
+        </div>
+    </mat-card-content>
+</mat-card>
