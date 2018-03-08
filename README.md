@@ -1,6 +1,4 @@
-# [ypk-lab/angular-bootstrapper](https://github.com/ypk-lab/angular-bootstrapper) demo website
-
-Hosted by GitHub Pages.
+# GitHub Pages Branch
 
 - Application: [https://github.com/ypk-lab/angular-bootstrapper](https://github.com/ypk-lab/angular-bootstrapper)
-- Demo: [https://ypk-lab.github.io/angular-bootstrapper-demo](https://ypk-lab.github.io/angular-bootstrapper-demo)
+- Demo: [https://ypk-lab.github.io/angular-bootstrapper](https://ypk-lab.github.io/angular-bootstrapper)
