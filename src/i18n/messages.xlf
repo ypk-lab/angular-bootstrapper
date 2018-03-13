@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8c062e3e7898b7a19a1fdcfd24067788575ca4ce" datatype="html">
+        <source>GitHub user search</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/github-user/github-user.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="83c4d4d764d2e2725ab8e919ec16ac400e1f290a" datatype="html">
+        <source>User ID</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/github-user/github-user.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">User ID Placeholder</note>
+      </trans-unit>
+      <trans-unit id="4a83df26ec645525bb2359b5f5fc1719281d89f1" datatype="html">
+        <source>Go!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/github-user/github-user.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7fa0cc3a3b07e5097e71c822f34986306ee99797" datatype="html">
+        <source>Login:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/github-user/github-user.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="616e206cb4f25bd5885fc35925365e43cf5fb929" datatype="html">
+        <source>Name:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/github-user/github-user.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c52db455cca9109ee47e1a612c3f4117c09eb71b" datatype="html">
+        <source>URL:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/github-user/github-user.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
