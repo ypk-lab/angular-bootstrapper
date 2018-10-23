@@ -1,4 +1,4 @@
 # GitHub Pages Branch
 
-- Application: [https://github.com/ypk-lab/angular-bootstrapper](https://github.com/ypk-lab/angular-bootstrapper)
-- Demo: [https://ypk-lab.github.io/angular-bootstrapper](https://ypk-lab.github.io/angular-bootstrapper)
+- Application: [https://github.com/paulfevre/angular-bootstrapper](https://github.com/paulfevre/angular-bootstrapper)
+- Demo: [https://paulfevre.github.io/angular-bootstrapper](https://paulfevre.github.io/angular-bootstrapper)
