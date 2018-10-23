@@ -2,8 +2,6 @@
 
 Angular & Angular Material application bootstrapper.
 
-[![Dependency Status](https://gemnasium.com/ypk-lab/angular-bootstrapper.svg)](https://gemnasium.com/ypk-lab/angular-bootstrapper)
-
 ## Demo
  
 Go to [https://ypk-lab.github.io/angular-bootstrapper](https://ypk-lab.github.io/angular-bootstrapper).
