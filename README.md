@@ -4,7 +4,7 @@ Angular & Angular Material application bootstrapper.
 
 ## Demo
  
-Go to [https://ypk-lab.github.io/angular-bootstrapper](https://ypk-lab.github.io/angular-bootstrapper).
+Go to [https://paulfevre.github.io/angular-bootstrapper](https://paulfevre.github.io/angular-bootstrapper).
 
 ## Requirements
 
